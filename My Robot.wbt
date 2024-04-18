@@ -1,0 +1,163 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/Parquetry.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/robotis/darwin-op/protos/Darwin-op.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/robotis/darwin-op/protos/RobotisOp2.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.07412885180356601 0.06909728079543381 -0.9948519885475237 1.6461755900829946
+  position 0.10782789329527931 1.774267558454891 0.22279522501018592
+}
+TexturedBackground {
+  skyColor [
+    0 0 0
+    0 0 0
+    0.698039 0.666667 0.682353
+  ]
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 2 2
+  floorTileSize 0.9 0.3
+  floorAppearance Parquetry {
+    type "light strip"
+  }
+}
+Darwin-op {
+  hidden position_0_0 2.2562035573159278e-11
+  hidden position_0_1 -7.767160674026183e-08
+  hidden position_0_2 7.663029649335313e-08
+  hidden position_0_3 -0.046601915316916265
+  hidden position_0_4 0.023852122997976843
+  hidden translation_10 0 0 0.051
+  hidden rotation_10 0.5774169351009811 0.5773169333471314 0.5773169333470595 2.094400001179141
+  hidden position_10_0 0.17355551147663206
+  hidden translation_11 0 0 0
+  hidden rotation_11 1 0 0 0.6118444885233624
+  hidden translation_15 -0.005 0.037 -0.122
+  hidden rotation_15 0.5773564505646815 0.5773470816891172 0.5773472752654265 2.0944148660345716
+  hidden position_15_0 -0.0061439362197416615
+  hidden translation_16 0 0 0
+  hidden rotation_16 0 0 1 0.006143936219752698
+  hidden position_16_0 0.6312506191533898
+  hidden translation_17 0 0 0
+  hidden rotation_17 -1 0 0 0.6312506191533899
+  hidden position_17_0 -0.9292137571109459
+  hidden translation_18 0 -0.093 0
+  hidden rotation_18 1 0 0 0.9292137571109457
+  hidden position_18_0 -0.5237384942295885
+  hidden translation_19 0 -0.093 0
+  hidden rotation_19 -1 0 0 0.5237384942295884
+  hidden position_19_0 -0.013822634589645381
+  hidden translation_20 0 0 0
+  hidden rotation_20 0 0 -1 0.01382263458963549
+  hidden translation_21 -0.005 -0.037 -0.122
+  hidden rotation_21 0.5773263076872922 0.5773622734040461 0.577362225731706 2.094416743308522
+  hidden position_21_0 0.006143910369454456
+  hidden translation_22 0 0 0
+  hidden rotation_22 0 0 -1 0.006143910369479712
+  hidden position_22_0 -0.6312506222097805
+  hidden translation_23 0 0 0
+  hidden rotation_23 -1 0 0 0.6312506222097803
+  hidden position_23_0 0.9292137281831029
+  hidden translation_24 0 -0.093 0
+  hidden rotation_24 1 0 0 0.9292137281831031
+  hidden position_24_0 0.5237384927856623
+  hidden translation_25 0 -0.093 0
+  hidden rotation_25 -1 0 0 0.5237384927856624
+  hidden position_25_0 0.013822660090352734
+  hidden translation_26 0 0 0
+  hidden rotation_26 0 0 0.9999999999999999 0.013822660090359453
+  hidden translation_27 0 0.082 0
+  hidden rotation_27 0.5681625247285003 0.5681760962743089 0.5952875516224269 2.067747834469718
+  hidden position_27_0 0.200014520643917
+  hidden translation_28 0 -0.016 0
+  hidden rotation_28 0 0 1 0.5853854793560755
+  hidden position_28_0 -0.1511239628227135
+  hidden translation_29 0 -0.06 0.016
+  hidden rotation_29 -1 0 0 1.7219239628227117
+  hidden translation_30 0 -0.082 0
+  hidden rotation_30 0.572738196568723 0.5727104217722222 0.5864927373673863 2.0806460237418385
+  hidden position_30_0 -0.669384946687705
+  hidden translation_31 0 -0.016 0
+  hidden rotation_31 0 0 -1 0.11601505331229275
+  hidden position_31_0 0.028852859057147434
+  hidden translation_32 0 -0.06 0.016
+  hidden rotation_32 -1 0 0 1.5996528590571473
+  translation 0.218849 0.278064 0.355618
+  rotation -0.11311571331561654 -0.002372023684084123 0.9935789897661592 -3.102782182956406
+  controller "walk"
+  plasticColor 0.772549 0.607843 0.631373
+}
+RobotisOp2 {
+  hidden position_0_0 1.69333950531566e-11
+  hidden position_0_1 -8.332078569955813e-08
+  hidden position_0_2 8.326948296654448e-08
+  hidden position_0_3 0.7218681087197707
+  hidden position_0_4 -0.8447392817461391
+  hidden translation_10 0 0 0.051
+  hidden rotation_10 0.5774169358805807 0.5773169329572286 0.5773169329572279 2.0944000000097756
+  hidden position_10_0 0.17355551147556258
+  hidden translation_11 0 0 0
+  hidden rotation_11 1 0 0 0.6118444885244365
+  hidden translation_15 -0.005 0.037 -0.122
+  hidden rotation_15 0.5773564483903297 0.5773470827763381 0.5773472763525923 2.0944148692961098
+  hidden position_15_0 -0.00614392171912995
+  hidden translation_16 0 0 0
+  hidden rotation_16 0 0 1 0.006143921719153274
+  hidden position_16_0 0.6312505485473372
+  hidden translation_17 0 0 0
+  hidden rotation_17 -0.9999999999999999 0 0 0.631250548547337
+  hidden position_17_0 -0.9292138119451666
+  hidden translation_18 0 -0.093 0
+  hidden rotation_18 1 0 0 0.9292138119451667
+  hidden position_18_0 -0.5237384244648806
+  hidden translation_19 0 -0.093 0
+  hidden rotation_19 -1 0 0 0.5237384244648806
+  hidden position_19_0 -0.013822647563250454
+  hidden translation_20 0 0 0
+  hidden rotation_20 0 0 -1 0.01382264756324412
+  hidden translation_21 -0.005 -0.037 -0.122
+  hidden rotation_21 0.5773263102427268 0.5773622721264243 0.5773622244540523 2.094416739475308
+  hidden position_21_0 0.006143921258349491
+  hidden translation_22 0 0 0
+  hidden rotation_22 0 0 -1 0.006143921258360738
+  hidden position_22_0 -0.6312505471100345
+  hidden translation_23 0 0 0
+  hidden rotation_23 -1 0 0 0.6312505471100343
+  hidden position_23_0 0.9292138126826823
+  hidden translation_24 0 -0.093 0
+  hidden rotation_24 1 0 0 0.9292138126826823
+  hidden position_24_0 0.5237384227887931
+  hidden translation_25 0 -0.093 0
+  hidden rotation_25 -1 0 0 0.5237384227887929
+  hidden position_25_0 0.01382264803905192
+  hidden translation_26 0 0 0
+  hidden rotation_26 0 0 1 0.013822648039058427
+  hidden translation_27 0 0.082 0
+  hidden rotation_27 0.6735484460413572 0.6735484155956372 0.30440930124403137 2.550658116458837
+  hidden position_27_0 0.3071779746716179
+  hidden translation_28 0 -0.016 0
+  hidden rotation_28 0 0 1 0.4782220253283789
+  hidden position_28_0 -0.5160589340693873
+  hidden translation_29 0 -0.06 0.016
+  hidden rotation_29 -1 0 0 2.086858934069387
+  hidden translation_30 0 -0.082 0
+  hidden rotation_30 0.6829090947278299 0.6829092348312926 0.25936488837187266 2.633935719971727
+  hidden position_30_0 -0.3117856390721195
+  hidden translation_31 0 -0.016 0
+  hidden rotation_31 0 0 -0.9999999999999999 0.47361436092787834
+  hidden position_31_0 0.5114512669979903
+  hidden translation_32 0 -0.06 0.016
+  hidden rotation_32 -1 0 0 2.0822512669979902
+  translation -0.0130569 -0.251967 0.358032
+  rotation -0.11268182818757247 -0.0002614195774629568 0.9936310871023063 -3.1371176549722537
+  controller "walk"
+  plasticColor 0.54902 0.635294 0.694118
+}
